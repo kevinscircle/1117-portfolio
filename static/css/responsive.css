@@ -1,0 +1,45 @@
+/* small sreens  */
+
+@media(max-width:640px) {
+    html {
+        background-color: red;
+        font-size: 12px;
+
+    }
+
+    header {
+        flex-direction: column;
+    }
+
+    .nav-options {
+        flex-direction: column;
+    }
+
+    .logo {
+        background-color: red;
+        width: 100%;
+        margin: 2rem 0px;
+    }
+
+    .about-section {
+        flex-direction: column;
+        
+    }
+    .about-image-container {
+        width: 100%;
+    }
+
+
+}
+
+
+/* tablet */
+@media
+/* screen width is 1007px or less 
+    need both min and max */
+(min-width: 641px) and (max-width: 1007px) {
+
+    html {
+        font-size: 13px;
+    }
+}

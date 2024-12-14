@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% block title %} About Me {% endblock title%}
+{% load static %}
+
+
+{% block content %}
+<section class="about-section center-row">
+    <div class="about-image-container center-row">
+      <img src="{% static './img/logo.png' %}" alt="logo" />
+    </div>
+
+    <div class="about-description-container center-column">
+      <h1>My Role as a Full Stack Developer</h1>
+      <h2>I'm Kevin Reyes</h2>
+
+      <p>
+        I am a full-stack software engineer. I'm familiar with a variety of
+        languages and frameworks, including JavaScript, HTML, CSS, JQuery, 
+        Django, Python, and React.js. I am a NAVY Veteran, now on the
+        path of software engineering to pursue my passion. I love technology
+        and the idea of the internet being the world's greatest library of
+        resources and inspiration. The ability of software and technology to
+        come together to improve or better humanity. Self Motivated and always
+        willing to continue learning more. Acquired skills and languages to
+        perform in the field of software.
+      </p>
+
+      <div class="skills-container center-column">
+        <h2>My Skills</h2>
+        <div class="skills-list center-row">
+          <label class="text-label">HTML5</label>
+          <label class="text-label">CSS3</label>
+          <label class="text-label">Bootstrap</label>
+          <label class="text-label">jQuery</label>
+          <label class="text-label">JavaScript</label>
+          <label class="text-label">React.JS</label>
+          <label class="text-label">Git</label>
+          <label class="text-label">GitHub</label>
+          <label class="text-label">Vs Code</label>
+          <label class="text-label">Trello</label>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock content %}
