@@ -7,12 +7,19 @@
 
 .about-image-container{
     width: 30%;
+
+    
+}
+
+.profolioPhoto{
+    height: 30px;
 }
 
 
 
 .about-image-container img{
     width: 70%;
+    
 }
 
 .about-description-container{
